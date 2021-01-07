@@ -1,4 +1,7 @@
 steps:
+  - name: "go"
+    args:
+      - "test"
   - name: "docker"
     args:
       - "build"
