@@ -1,0 +1,10 @@
+steps:
+  - name: "docker"
+    args:
+      - "build"
+      - "-t"
+      - "gcr.io/$PROJECT_ID/codeeducation-ci-go:latest"
+      - "."
+
+images:
+  - "gcr.io/$PROJECT_ID/codeeducation-ci-go:latest"
